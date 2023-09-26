@@ -24,10 +24,7 @@
 .header-menu a {
     display: inline-block;
     padding: 16px 0px;
-    font-size: 18px;
     position: relative;
-    font-family: "Poppins";
-    font-weight: 400;
 }
 
 .header-menu a:after {
@@ -38,6 +35,8 @@
     margin-top: 4px;
     transition: 0.3s;
     position: absolute;
+    background: var(--cor-0);
+    
 }
 
 .header-menu a:hover::after {
